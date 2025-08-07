@@ -1,0 +1,5 @@
+D:\WORKSPACES\FLUTTER\PMPOSHAN\Socket\XmlSocketSigner\XmlSocketSigner\obj\Debug\net8.0\XmlSocketSigner.csproj.AssemblyReference.cache
+D:\WORKSPACES\FLUTTER\PMPOSHAN\Socket\XmlSocketSigner\XmlSocketSigner\obj\Debug\net8.0\XmlSocketSigner.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKSPACES\FLUTTER\PMPOSHAN\Socket\XmlSocketSigner\XmlSocketSigner\obj\Debug\net8.0\XmlSocketSigner.AssemblyInfoInputs.cache
+D:\WORKSPACES\FLUTTER\PMPOSHAN\Socket\XmlSocketSigner\XmlSocketSigner\obj\Debug\net8.0\XmlSocketSigner.AssemblyInfo.cs
+D:\WORKSPACES\FLUTTER\PMPOSHAN\Socket\XmlSocketSigner\XmlSocketSigner\obj\Debug\net8.0\XmlSocketSigner.csproj.CoreCompileInputs.cache

@@ -1,0 +1,92 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "XmlSocketSigner/1.0.0": {
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "9.0.8",
+          "System.Security.Cryptography.Xml": "9.0.8",
+          "System.Windows.Extensions": "9.0.8"
+        },
+        "runtime": {
+          "XmlSocketSigner.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Pkcs/9.0.8": {
+        "runtime": {
+          "lib/net9.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      },
+      "System.Security.Cryptography.Xml/9.0.8": {
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "9.0.8"
+        },
+        "runtime": {
+          "lib/net9.0/System.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      },
+      "System.Windows.Extensions/9.0.8": {
+        "runtime": {
+          "lib/net9.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XmlSocketSigner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.Pkcs/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+mtc8dZnrP9N1HZICncBzLUrX4YBP+WvAWb817auAA5mKOJzHZShuGpCtQiekgV/7N0uS/x0LkdBAezBcSBwVA==",
+      "path": "system.security.cryptography.pkcs/9.0.8",
+      "hashPath": "system.security.cryptography.pkcs.9.0.8.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Xml/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D3BLF3c0tRkAZ0w7/Si1noxrvfWVzNUpnaxxHPLc7DzNDs+xkWQBgpcDKQ0ZH2r6gyMujcn50uRXkuTVYElxsg==",
+      "path": "system.security.cryptography.xml/9.0.8",
+      "hashPath": "system.security.cryptography.xml.9.0.8.nupkg.sha512"
+    },
+    "System.Windows.Extensions/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GV5brx4ryyRGSnLGyIdKQLxGqs2c6/4E1Y+tH6Yl4buhBARIiE86Akfe8zDvCiR+jJi6r+dEXHTbpxD/bx4gbw==",
+      "path": "system.windows.extensions/9.0.8",
+      "hashPath": "system.windows.extensions.9.0.8.nupkg.sha512"
+    }
+  }
+}

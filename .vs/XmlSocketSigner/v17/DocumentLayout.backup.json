@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WORKSPACES\\FLUTTER\\PMPOSHAN\\Socket\\XmlSocketSigner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B53F1051-B50C-4AB3-B8A1-7144C23F44EF}|XmlSocketSigner\\XmlSocketSigner.csproj|d:\\workspaces\\flutter\\pmposhan\\socket\\xmlsocketsigner\\xmlsocketsigner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53F1051-B50C-4AB3-B8A1-7144C23F44EF}|XmlSocketSigner\\XmlSocketSigner.csproj|solutionrelative:xmlsocketsigner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53F1051-B50C-4AB3-B8A1-7144C23F44EF}|XmlSocketSigner\\XmlSocketSigner.csproj|d:\\workspaces\\flutter\\pmposhan\\socket\\xmlsocketsigner\\xmlsocketsigner\\xmlsocketsigner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B53F1051-B50C-4AB3-B8A1-7144C23F44EF}|XmlSocketSigner\\XmlSocketSigner.csproj|solutionrelative:xmlsocketsigner\\xmlsocketsigner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XmlSocketSigner.csproj",
+              "DocumentMoniker": "D:\\WORKSPACES\\FLUTTER\\PMPOSHAN\\Socket\\XmlSocketSigner\\XmlSocketSigner\\XmlSocketSigner.csproj",
+              "RelativeDocumentMoniker": "XmlSocketSigner\\XmlSocketSigner.csproj",
+              "ToolTip": "D:\\WORKSPACES\\FLUTTER\\PMPOSHAN\\Socket\\XmlSocketSigner\\XmlSocketSigner\\XmlSocketSigner.csproj",
+              "RelativeToolTip": "XmlSocketSigner\\XmlSocketSigner.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-07T09:32:54.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WORKSPACES\\FLUTTER\\PMPOSHAN\\Socket\\XmlSocketSigner\\XmlSocketSigner\\Program.cs",
+              "RelativeDocumentMoniker": "XmlSocketSigner\\Program.cs",
+              "ToolTip": "D:\\WORKSPACES\\FLUTTER\\PMPOSHAN\\Socket\\XmlSocketSigner\\XmlSocketSigner\\Program.cs",
+              "RelativeToolTip": "XmlSocketSigner\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T09:14:50.813Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

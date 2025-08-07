@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZGwSWYTQohM=",
+  "success": true,
+  "projectFilePath": "D:\\WORKSPACES\\FLUTTER\\PMPOSHAN\\Socket\\XmlSocketSigner\\XmlSocketSigner\\XmlSocketSigner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\devel\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.8\\system.security.cryptography.pkcs.9.0.8.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\system.security.cryptography.xml\\9.0.8\\system.security.cryptography.xml.9.0.8.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\system.windows.extensions\\9.0.8\\system.windows.extensions.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
