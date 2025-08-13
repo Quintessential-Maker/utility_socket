@@ -8,43 +8,40 @@ using System.Windows.Forms;
 using System.IO;
 using System.Threading.Tasks;
 using System.Net.NetworkInformation;
+using System.Linq;
 
 class Program
 {
+    [STAThread] // Required for Certificate UI
     static async Task Main(string[] args)
     {
-        int port = 60000; // default
-
-        // Step 1: Parse port from args if provided
-        if (args.Length > 0 && int.TryParse(args[0], out int parsedPort))
-        {
-            if (parsedPort < 5000 || parsedPort > 90000 || !IsPortAvailable(parsedPort))
-            {
-                Console.WriteLine("❌ Port not available or out of range (5000-90000).");
-                return;
-            }
-            port = parsedPort;
-        }
-
-        string prefix = $"http://localhost:{port}/signxml/";
+        // ✅ Fixed ports list
+        int[] ports = { 59001, 59002, 59003, 59004, 59005, 59006, 59007, 59008, 60000 };
 
         HttpListener listener = new HttpListener();
-        listener.Prefixes.Add(prefix);
+
+        foreach (var port in ports)
+        {
+            string prefix = $"http://localhost:{port}/signxml/";
+            listener.Prefixes.Add(prefix);
+            Console.WriteLine($"✅ Added prefix: {prefix}");
+        }
 
         try
         {
             listener.Start();
-            Console.WriteLine($"✅ Listening at {prefix}");
+            Console.WriteLine($"🚀 Listening on ports: {string.Join(", ", ports)}");
         }
         catch (HttpListenerException ex)
         {
-            Console.WriteLine($"❌ Failed to bind to port {port}: {ex.Message}");
+            Console.WriteLine($"❌ Failed to start listener: {ex.Message}");
             return;
         }
 
         while (true)
         {
             var context = await listener.GetContextAsync();
+
             if (context.Request.HttpMethod != "POST")
             {
                 await WriteErrorResponse(context.Response, "Method Not Allowed", 405);
@@ -62,14 +59,19 @@ class Program
 
             try
             {
-                XmlDocument xmlDoc = new XmlDocument();
-                xmlDoc.PreserveWhitespace = true;
+                XmlDocument xmlDoc = new XmlDocument { PreserveWhitespace = true };
                 xmlDoc.LoadXml(xmlInput);
 
                 X509Certificate2 cert = SelectCertificate();
                 if (cert == null)
                 {
                     await WriteErrorResponse(context.Response, "No certificate selected", 400);
+                    continue;
+                }
+
+                if (!cert.HasPrivateKey)
+                {
+                    await WriteErrorResponse(context.Response, "Selected certificate does not have a private key", 400);
                     continue;
                 }
 
@@ -92,6 +94,22 @@ class Program
             }
         }
     }
+
+
+    // ✅ Finds available port if busy
+    static int GetAvailablePort(int startPort)
+    {
+        int port = startPort;
+        while (!IsPortAvailable(port))
+        {
+            Console.WriteLine($"⚠ Port {port} is busy. Trying {port + 1}...");
+            port++;
+            if (port > 90000) throw new Exception("No available ports found in range.");
+        }
+        return port;
+    }
+
+    static bool IsPortInRange(int port) => port >= 5000 && port <= 90000;
 
     static bool IsPortAvailable(int port)
     {

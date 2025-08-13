@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ZGwSWYTQohM=",
+  "dgSpecHash": "oD6F3ayFbK4=",
   "success": true,
   "projectFilePath": "D:\\WORKSPACES\\FLUTTER\\PMPOSHAN\\Socket\\XmlSocketSigner\\XmlSocketSigner\\XmlSocketSigner.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\devel\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.7\\microsoft.net.illink.tasks.9.0.7.nupkg.sha512",
     "C:\\Users\\devel\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.8\\system.security.cryptography.pkcs.9.0.8.nupkg.sha512",
     "C:\\Users\\devel\\.nuget\\packages\\system.security.cryptography.xml\\9.0.8\\system.security.cryptography.xml.9.0.8.nupkg.sha512",
-    "C:\\Users\\devel\\.nuget\\packages\\system.windows.extensions\\9.0.8\\system.windows.extensions.9.0.8.nupkg.sha512"
+    "C:\\Users\\devel\\.nuget\\packages\\system.windows.extensions\\9.0.8\\system.windows.extensions.9.0.8.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.7\\microsoft.netcore.app.runtime.win-x64.9.0.7.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\9.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.9.0.7.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\9.0.7\\microsoft.aspnetcore.app.runtime.win-x64.9.0.7.nupkg.sha512"
   ],
   "logs": []
 }
